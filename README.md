@@ -9,10 +9,10 @@ Preprocessing Pipelines) of COST Action CA24161, INDoS.
 
 ## What this is
 
-Teaching materials: notebooks, slides and the notes that go with them. They are
-written to run in a browser on [Neurodesk](https://www.neurodesk.org/), which is
-the environment the school uses, so you should not need to install anything to
-follow them.
+Teaching materials: notebooks, slides and the notes that go with them. Where
+they run on [Neurodesk](https://www.neurodesk.org/), the browser-based
+environment the school uses, you will not need to install anything. Where they
+do not, the file says what it needs.
 
 They are **free to reuse, adapt and teach from**, including commercially, as long
 as you credit the author. One licence covers everything here, notebooks included:
@@ -31,8 +31,13 @@ obligations on it that a personal repository would not have.
 
 ### Before the school
 
-- [ ] Materials run start to finish on Neurodesk Play Europe, in a browser, from
-      a clean session. If anything else is needed, say so at the top of the file.
+- [ ] **Say what your materials need in order to run**, at the top of each file:
+      tools, versions, data, and roughly how long it takes.
+- [ ] Running on Neurodesk Play Europe, in a browser, from a clean session, is a
+      **nice to have and not a requirement**. It is what the school uses and it
+      spares everyone an install, but **neither COST nor INDoS mandates it** and
+      nothing about this repository depends on it. Do it if it is easy for you;
+      do not lose a day to it.
 - [ ] Every tool version is pinned and stated. "Latest" is not reproducible, and
       the school is partly about that point.
 - [ ] Every dataset used is public and cited by accession and DOI. **No
