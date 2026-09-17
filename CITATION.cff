@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite them as below."
+title: "INDoS WG3 Training School 2026: structural and diffusion MRI materials"
+abstract: >-
+  Teaching materials on structural MRI (FreeSurfer, voxel-based morphometry) and
+  diffusion MRI, prepared for the Training School of Working Group 3 of the
+  INDoS COST Action (CA24161), Madrid, 30 September to 2 October 2026.
+type: dataset
+authors:
+  - family-names: "Alemán-Gómez"
+    given-names: "Yasser"
+    affiliation: "Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland"
+    orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+license: CC-BY-4.0
+repository-code: "https://github.com/indos-costaction/wg3-ts2026-aleman-gomez"
+url: "https://www.indos-costaction.eu/training"
+keywords:
+  - neuroimaging
+  - preprocessing
+  - structural MRI
+  - diffusion MRI
+  - FreeSurfer
+  - training materials
+  - COST Action CA24161
+version: 1.0.0
+date-released: "2026-09-29"
