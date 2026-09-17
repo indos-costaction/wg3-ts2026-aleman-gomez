@@ -9,7 +9,7 @@ type: dataset
 authors:
   - family-names: "Alemán-Gómez"
     given-names: "Yasser"
-    affiliation: "Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland"
+    affiliation: "Lausanne University Hospital and University of Lausanne, Switzerland"
     orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
 license: CC-BY-4.0
 repository-code: "https://github.com/indos-costaction/wg3-ts2026-aleman-gomez"
