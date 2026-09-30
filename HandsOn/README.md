@@ -29,12 +29,14 @@ flowchart LR
     A["📥 1. Clone<br/>the repository"] --> B["🖥️ 2. Install<br/>Neurodesk App"]
     B --> C["📓 3. Open a notebook<br/>in HandsOn/"]
     C --> D["▶️ Run cell 0.1<br/>Download dataset"]
-    D --> E["✅ Ready for<br/>the session!"]
+    D --> F["🔑 4. Get your<br/>FreeSurfer license"]
+    F --> E["✅ Ready for<br/>the session!"]
 
     style A fill:#e3f2fd,stroke:#1976d2,color:#000
     style B fill:#ffebee,stroke:#d32f2f,color:#000
     style C fill:#f3e5f5,stroke:#7b1fa2,color:#000
     style D fill:#fff3e0,stroke:#f57c00,color:#000
+    style F fill:#fffde7,stroke:#fbc02d,color:#000
     style E fill:#e8f5e9,stroke:#388e3c,color:#000
 ```
 
@@ -43,6 +45,7 @@ flowchart LR
 | **1** | 📥 Clone the course repository | ✅ |
 | **2** | 🖥️ Install the Neurodesk App | ✅ **Mandatory** |
 | **3** | ▶️ Download the dataset (cell 0.1) | ✅ |
+| **4** | 🔑 Get a FreeSurfer license | ✅ |
 
 ---
 
@@ -124,12 +127,39 @@ Once the repository is cloned **and** Neurodesk is installed:
 
 ---
 
+## 🔑 Step 4 — Get your FreeSurfer license
+
+FreeSurfer's processing tools (e.g. `recon-all`) need a **free license file**. Without it, the FreeSurfer hands-on will not run.
+
+> [!TIP]
+> The license is sent by email, so request it early. It usually arrives within minutes, but can take longer.
+
+| | Action |
+|:---:|---|
+| 1️⃣ | Register at 👉 **[surfer.nmr.mgh.harvard.edu/registration.html](https://surfer.nmr.mgh.harvard.edu/registration.html)** |
+| 2️⃣ | You will receive an email with a file called **`license.txt`** attached |
+| 3️⃣ | Copy it into your **`neurodesktop-storage`** folder (see below) |
+
+```bash
+cp ~/Downloads/license.txt ~/neurodesktop-storage/license.txt
+```
+
+| 💻 On your computer | 🐳 Inside Neurodesk |
+|---|---|
+| `~/neurodesktop-storage/license.txt` | `/data/neurodesktop-storage/license.txt` |
+
+> [!WARNING]
+> Keep the file name exactly **`license.txt`**. The notebook looks for it at `/data/neurodesktop-storage/license.txt` and will report `exists: False` if it is missing or renamed.
+
+---
+
 ## ✅ Pre-session checklist
 
 - [ ] 📥 Repository `wg3-ts2026-aleman-gomez` cloned on my computer
 - [ ] 🖥️ Neurodesk App installed and starting correctly
 - [ ] 📂 Repository visible from inside Neurodesk
 - [ ] ▶️ Cell **0.1 Dataset** run and dataset downloaded successfully
+- [ ] 🔑 FreeSurfer `license.txt` copied to `~/neurodesktop-storage/`
 
 ---
 
@@ -150,6 +180,15 @@ Make sure you cloned it **inside your home directory** (e.g. `~/wg3-ts2026-alema
 <br>
 
 The download link may have expired or be temporarily unavailable. Please contact the instructor.
+
+</details>
+
+<details>
+<summary><b>The FreeSurfer notebook says <code>exists: False</code> for the license</b></summary>
+
+<br>
+
+Check that the file is named exactly `license.txt` (not `license (1).txt` or `license.txt.txt`) and that it sits directly in `~/neurodesktop-storage/`, not in a subfolder.
 
 </details>
 
