@@ -28,12 +28,12 @@ The practical session runs entirely inside **Neurodesk**, which provides all the
 
 ### Where are my files inside Neurodesk? (Linux)
 
-On Linux, Neurodesk mounts your **home directory** at **`/data`**. Inside it, Neurodesk creates a folder called **`neurodesk-storage`**.
+On Linux, Neurodesk mounts your **home directory** at **`/data`**. Inside it, Neurodesk creates a folder called **`neurodesktop-storage`**.
 
 | On your computer        | Inside Neurodesk               |
 |-------------------------|--------------------------------|
 | `~` (your home folder)  | `/data`                        |
-| —                       | `/data/neurodesk-storage`      |
+| —                       | `/data/neurodesktop-storage`      |
 
 So, if you cloned the repository in your home directory, you will find it inside Neurodesk at:
 
