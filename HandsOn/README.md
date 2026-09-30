@@ -9,6 +9,12 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-notebooks-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Time](https://img.shields.io/badge/Setup_time-~30_min-blue?style=for-the-badge)
 
+<br>
+
+<img src="qr-setup.png" alt="QR code linking to this setup guide" width="180">
+
+<sub>📱 Scan to open this guide on your phone</sub>
+
 </div>
 
 > [!IMPORTANT]
