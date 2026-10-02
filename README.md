@@ -46,31 +46,34 @@ obligations on it that a personal repository would not have.
       CC BY 4.0. If it is not, link to it rather than copy it in.
 - [ ] `CITATION.cff` names you correctly, carries your ORCID, and its version and
       date match the release you are about to cut.
-- [ ] **Cut a release and let Zenodo mint a DOI**, by **29 September**, so the
-      materials are citable on the day rather than months later.
+- [ ] **Publish a release** once the materials are final, so they carry a DOI
+      (see [Publishing a release](#publishing-a-release)).
 
 ### In anything you publish from here
 
 > This publication is based upon work from COST Action CA24161 (INDoS),
 > supported by COST (European Cooperation in Science and Technology).
 
-### Connecting Zenodo, once
+### Publishing a release
 
-1. Sign in at [zenodo.org](https://zenodo.org) **with GitHub**.
-2. If the authorisation screen asks, grant access to the **indos-costaction**
-   organisation. This step is easy to miss on an organisation-owned repository,
-   and it is the usual reason a repository never shows up in the list.
-3. Zenodo, your account, **GitHub** tab: find this repository and switch it
-   **ON**.
-4. Only releases created **after** the switch is on are captured. Turning it on
-   afterwards does nothing for a tag that already exists.
-5. On GitHub: **Releases, Draft a new release**, tag `v1.0.0`, target `main`,
-   two lines about what is in it, **Publish**.
-6. Zenodo archives the tag and mints a DOI within a few minutes.
-7. Put the DOI badge at the top of this README, and add the DOI to
-   `CITATION.cff` (`doi:` and `identifiers:`).
-8. Zenodo types the record as *Software* by default. Open the record and change
-   the resource type to **Lesson**, which is what this is.
+The citable record on Zenodo comes from GitHub releases, and only from them.
+Publishing a release makes **Zenodo** archive it and mint a DOI. `.zenodo.json`
+describes the record: a *Lesson*, CC BY 4.0, with the COST acknowledgement.
+Pushing to `main` does not touch Zenodo.
 
-Tag `v1.1.0` after the school for whatever the three days turn up. The DOI from
-step 6 always resolves to the latest version, so the citation does not go stale.
+Zenodo is connected to this repository by the INDoS organisers. It archives
+only releases published after it was switched on, so check with them before
+your first release if this repository has no Zenodo webhook under
+**Settings, Webhooks**.
+
+To release: **Releases, Draft a new release**, a new tag `v1.0.0` targeting
+`main`, a couple of lines on what is in it, **Publish**. Zenodo mints the DOI
+within a few minutes. Later changes go out the same way, as `v1.1.0` and so on.
+
+After the first release, put the DOI badge at the top of this README and add the
+DOI to `CITATION.cff` (`doi:` and `identifiers:`). Use the **concept DOI**, the
+one Zenodo labels "Cite all versions": it always resolves to the latest
+release, while the DOI of each release stays pinned to that version.
+
+`.zenodo.json` and `CITATION.cff` describe the same work twice: Zenodo reads only
+the first, GitHub's "Cite this repository" only the second. Keep them in step.
