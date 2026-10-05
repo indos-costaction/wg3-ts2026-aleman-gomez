@@ -11,6 +11,11 @@ authors:
     given-names: "Yasser"
     affiliation: "Lausanne University Hospital and University of Lausanne, Switzerland"
     orcid: "https://orcid.org/0000-0001-6067-8639"
+doi: 10.5281/zenodo.23164764
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23164764
+    description: "Concept DOI: all versions, resolves to the latest release."
 license: CC-BY-4.0
 repository-code: "https://github.com/indos-costaction/wg3-ts2026-aleman-gomez"
 url: "https://www.indos-costaction.eu/training"
