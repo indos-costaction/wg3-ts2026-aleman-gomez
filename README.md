@@ -1,5 +1,7 @@
 # INDoS WG3 Training School 2026 — structural and diffusion MRI
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23164764.svg)](https://doi.org/10.5281/zenodo.23164764)
+
 Materials for **Block 3** (structural MRI: FreeSurfer, voxel-based morphometry)
 and **Block 4** (diffusion MRI), Thursday 1 October.
 
